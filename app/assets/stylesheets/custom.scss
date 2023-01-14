@@ -69,10 +69,41 @@ p {
   text-decoration: none;
 }
 
+#menu {
+  color: white;
+  font-weight: bold;
+}
+
+#menu:hover {
+  color: grey;
+}
+
 .navbar {
   background-color: teal;
 }
+  
 
+.navbar-nav > .dropdown > a.dropdown-toggle {
+  color: white;
+}
+
+.navbar-nav > .dropdown > a.dropdown-toggle:hover {
+  color: grey;
+}
+
+.navbar-nav > .dropdown.open > a.dropdown-toggle {
+  color: grey;
+  background-color: teal;
+}
+
+.navbar-nav > .dropdown.open > a.dropdown-toggle :hover {
+  color: grey;
+  background-color: teal;
+}
+
+.dropdown {
+  font-weight: bold;
+}
 
 /* デバッグウインドウ */
 
